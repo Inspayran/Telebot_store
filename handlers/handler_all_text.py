@@ -1,5 +1,5 @@
 from handlers.handler import Handler
-from settings import config
+from settings import config, utility
 from settings.message import MESSAGES
 
 

@@ -44,5 +44,5 @@ def get_total_quantity(DB):
     """
     all_product_id = DB.select_all_product_id()
     # получаем список кол-ва по всем позициям заказа в виде обычного списка
-    all_quantity = [DB.selec_order_quantity(item) for item in all_product_id]
+    all_quantity = [DB.select_order_quantity(item) for item in all_product_id]
     return total_quantity(all_quantity)
